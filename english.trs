@@ -1,0 +1,2101 @@
+// AGS TRANSLATION SOURCE FILE
+// Format is alternating lines with original game text and replacement
+// text. If you don't want to translate a line, just leave the following
+// line blank. Lines starting with '//' are comments - DO NOT translate
+// them. Special characters such as [ and %%s symbolise things within the
+// game, so should be left in an appropriate place in the message.
+// 
+// ** Translation settings are below
+// ** Leave them as "DEFAULT" to use the game settings
+// The normal font to use - DEFAULT or font number
+//#NormalFont=DEFAULT
+// The speech font to use - DEFAULT or font number
+//#SpeechFont=DEFAULT
+// Text direction - DEFAULT, LEFT or RIGHT
+//#TextDirection=DEFAULT
+//  
+// ** REMEMBER, WRITE YOUR TRANSLATION IN THE EMPTY LINES, DO
+// ** NOT CHANGE THE EXISTING TEXT.
+// **** REMEMBER, WRITE YOUR TRANSLATION IN THE EMPTY LINES, DO
+Gehe zu %s
+Go to %s
+Schau an %s
+Look at %s
+Rede mit %s
+Talk to %s
+Gib !s an %s
+Give !s to %s
+Gib %s
+Give %s
+Nimm %s
+Take %s
+Benutze !s mit %s
+Use !s with %s
+Benutze %s
+Use %s
+Öffne %s
+Open %s
+Schließe %s
+Close %s
+Drücke %s
+Push %s
+Ziehe %s
+Pull %s
+Wechsle zu %s
+Switch to %s
+!s
+!s
+%s
+%s
+%d. 
+%d.
+>
+>
+$
+$
+%s>%c
+%s>%c
+>n
+>n
+JjNn
+YyNn
+a_button_give 5 802 803 Dd
+a_button_give 0 1 2 Qq
+a_button_pick_up 2 800 801 Ee
+a_button_pick_up 1 7 8 Ww
+a_button_use 1 794 795 Ww
+a_button_use 2 13 14 Ee
+a_button_open 3 790 791 Aa
+a_button_open 3 3 4 Aa
+a_button_look_at 0 788 789 Qq
+a_button_look_at 4 9 10 Ss
+a_button_push 7 798 799 Xx
+a_button_push 5 15 28 Dd
+a_button_close 4 796 797 Ss
+a_button_close 6 5 6 Yy
+a_button_talk_to 8 804 805 Cc
+a_button_talk_to 7 11 12 Xx
+a_button_pull 6 792 793 Yy
+a_button_pull 8 29 30 Cc
+font_320: 1  0  0  0  0  0  0  0  0  0  0  0  0  0  0
+
+font_640: 13 14 14 14 14 14 14 14 14 14 14 14 14 14 14
+
+Das ist schon zu.
+
+Das ist schon offen.
+
+error: SetString buffer error!
+
+error: GetString buffer error!
+
+@
+
+%s%c
+%s%c
+Credit Module has reached maximum %d lines, contact game author and tell them to increase CREDIT_MAX_LINES
+
+%c
+
+A
+
+%4d %4d %s
+
+Credits module 1.13 by SSH
+
+*ERROR*: Konnte %s nicht zu spielbaren Chars hinzufügen.
+
+Ist bereits vorhanden.
+
+Bereits drei spielbare Chars vorhanden.
+
+*ERROR*: Hier bin ich doch :)
+
+*ERROR*: Ne, %s ist nicht in der Liste!
+
+*ERROR*: Kann %s jetzt nicht entfernen.
+
+*ERROR*: Kann %s nicht entfernen, da er nicht hinzugefügt wurde.
+
+MMM_GO
+
+a_button_give
+
+a_button_pick_up
+
+a_button_use
+
+a_button_open
+
+a_button_look_at
+
+a_button_push
+
+a_button_close
+
+a_button_talk_to
+
+a_button_pull
+
+%s %s
+
+5
+
+2
+
+1
+
+3
+
+0
+
+7
+
+4
+
+8
+
+6
+
+42
+
+39
+
+38
+
+40
+
+37
+
+88
+
+41
+
+89
+
+43
+
+802
+
+800
+
+794
+
+790
+
+788
+
+798
+
+796
+
+804
+
+792
+
+119
+
+116
+
+91
+
+117
+
+90
+
+121
+
+118
+
+122
+
+120
+
+803
+
+801
+
+795
+
+791
+
+789
+
+799
+
+797
+
+805
+
+793
+
+Dd
+
+Ee
+
+Ww
+
+Aa
+
+Qq
+
+Xx
+
+Ss
+
+Cc
+
+Yy
+
+error: Talk view isn't assigned!
+
+%%%dc
+
+scrnshot.bmp
+
+Besser nicht.
+
+Tja, scheint nicht zu klappen.
+
+Toll.
+
+Da tut sich nichts.
+
+Da bewegt sich nichts.
+
+Es scheint nicht aufzugehen.
+
+Selbstgespräche zu führen kann Schizophrenie erzeugen. Also führe ich keine.
+
+Das klappt so nicht.
+
+Das hab ich schon bei mir. Ich kann es nicht noch einmal aufnehmen.
+
+Wozu?
+
+Es bewegt sich nicht.
+
+Das lässt sich nicht öffnen.
+
+Das lässt sich nicht schließen.
+
+Das ist jemand anderes.
+
+Zu schwer.
+
+Das bringt nichts.
+
+Schließen? Gehts noch?
+
+Öffnen? Gehts noch?
+
+Benutzen? Gehts noch?
+
+Text
+
+Wie kann ich Ihnen dienen?
+
+Speichern
+
+Laden
+
+Spielen
+
+Beenden
+
+@OVERHOTSPOT@
+
+Pause.  Leertaste für weiter.
+
+Wählen Sie ein Spiel zum Laden
+
+Abbruch
+
+Name für das Spiel
+
+OK
+
+99.
+
+Sind Sie sicher, dass Sie aufhören wollen? (J/N)
+
+Sind Sie sicher, das Sie neustarten wollen? (J/N)
+
+Dave
+
+Syd
+
+Michael
+
+Wendy
+
+Bernard
+
+Razor
+
+Jeff
+
+Dr. Fred
+
+Nurse Edna
+
+Weird Ed
+
+Meteor
+
+Green Tentacle
+
+Purple Tentacle
+
+Mark Eteer
+
+Wink Smiley
+
+Police
+
+Sandy
+
+Marcy
+
+Britney
+
+Mandy
+
+Andy
+
+Koslowski
+
+Radiosprecher
+
+Postbote
+
+Fernbedienung
+
+dummy
+
+No hotspot
+
+Hotspot 3
+
+Hotspot 4
+
+Hotspot 5
+
+Hotspot 6
+
+Hotspot 7
+
+Hotspot 8
+
+Hotspot 9
+
+Hotspot 10
+
+Hotspot 11
+
+Hotspot 12
+
+Hotspot 13
+
+Hotspot 14
+
+Hotspot 15
+
+Hotspot 16
+
+Hotspot 17
+
+Hotspot 18
+
+Hotspot 19
+
+Hotspot 20
+
+Hotspot 21
+
+Hotspot 22
+
+Hotspot 23
+
+Hotspot 24
+
+Hotspot 25
+
+Hotspot 26
+
+Hotspot 27
+
+Hotspot 28
+
+Hotspot 29
+
+Hotspot 30
+
+Hotspot 31
+
+Hotspot 32
+
+Hotspot 33
+
+Hotspot 34
+
+Hotspot 35
+
+Hotspot 36
+
+Hotspot 37
+
+Hotspot 38
+
+Hotspot 39
+
+Hotspot 40
+
+Hotspot 41
+
+Hotspot 42
+
+Hotspot 43
+
+Hotspot 44
+
+Hotspot 45
+
+Hotspot 46
+
+Hotspot 47
+
+Hotspot 48
+
+Hotspot 49
+
+Start
+
+_tv_44_view_ 81
+
+Und natürlich Briefmarke nicht vergessen!
+
+Schalten sie auch Morgen wieder ein.
+
+Hotspot 1
+
+Hotspot 2
+
+[]~
+
+leeres-Starterpack]
+
+Rulaman (Original)
+
+]BETA-Tester]
+
+Rulaman
+
+]Graphiken]
+
+]Übersetzung für AGS 3.0]
+
+]AdventureGameStudio 3.0]
+
+Chris Jones
+
+]Credit-Modul:]
+
+SSH
+
+]Diese Episode:~
+
+<Autor>
+
+ [Idee:]
+
+] [zusätzliche Grafiken:]
+
+] [zusätzliches Skripting:]
+
+] [gewidmet:]
+
+allen Adventure-Freunden
+
+]~
+
+Seit wann arbeitest du denn in der Schulkantine?
+
+Ich gehe dann mal wieder.
+
+Unsere Küchenhilfe ist krank ...
+
+... und bis sie wieder auf den Beinen ist, helfe ich gerne aus.
+
+Ich kann das Geld gut gebrauchen, ...
+
+... denn die Reparatur meines Popcorn-Wagens hat eine ganz schöne Stange Geld gekostet.
+
+Aha.
+
+Bis bald.
+
+Wer sind Sie denn?
+
+Mein Name ist Dr. Marvin Tears.
+
+Ich bin der depressive Schulpsychologe dieser Schule.
+
+...
+
+*Seufz*
+
+*Schluchz*
+
+Mein Name ist Rektor James Harris.
+
+Ich leite diese Schule, obwohl ich viel lieber Rektor der Grundschule wäre.
+
+Ich bin Schwester Edna Edison.
+
+Seit Kurzem bin ich hier die neue Krankenschwester.
+
+Was ist eigentlich mit Ihrer Vorgängerin passiert?
+
+Ähm, ... ja ...
+
+Die ist unter mysteriösen Umständen verschwunden.
+
+BRUHAHAHAHA!
+
+Ich habe da so ein Gefühl, als ob diese Frau irgendwelche Leichen im Keller hätte.
+
+Die ist abgesperrt.
+
+Mit dem Schlüssel geht es nicht.
+
+Die Tür zum Schulgang.
+
+Die Schuleingangstür.
+
+Die Schulausgangstür.
+
+Die Tür zur Mädchentoilette.
+
+Die Tür zur Jungentoilette.
+
+Die Tür zur Kantine.
+
+Die Tür zum Lehrerzimmer.
+
+Die Tür zum Rektorzimmer.
+
+Die Tür zum Klassenzimmer 3.
+
+Die Tür zur Schülerzeitung.
+
+Die Tür zum Krankenzimmer.
+
+Die Tür zum Psychologenzimmer.
+
+Das ist abgesperrt.
+
+Das Fenster nach Draußen.
+
+Das Fenster zum Klassenzimmer 3.
+
+Die Tür zum Computerraum.
+
+Die Tür zum Kopierraum.
+
+Die Tür zum Umkleideraum der Jungs.
+
+Die Tür zum Duschraum der Jungs.
+
+Klaus
+
+Charlie
+
+Dr. Tears
+
+Rektor Harris
+
+Schlüssel
+
+Anweisungszettel
+
+Anweisung (beschrieben)
+
+Schul-Starterpack]
+
+XY (Original)
+
+Rulaman (neue Version)
+
+Dieser Schlüssel passt nicht.
+
+Sieht das etwa wie ein Schlüssel aus?
+
+Leer.
+
+Ganz schön sauber für eine Schule.
+
+Ich bin doch kein Müllmann.
+
+Soll ich ihn mir etwa aufsetzen?
+
+Der ist doch schon offen.
+
+Der hat keinen Deckel zum Schließen.
+
+Das würde den Mülleimer nur umwerfen.
+
+Ich will das nicht wegwerfen.
+
+Ein Fenster.
+
+Würde ich gerne, aber...
+
+Und wie bitte?
+
+Das lässt sich nur von Innen öffnen.
+
+Das ist doch schon zu.
+
+Damit bekomme ich es auch nicht auf.
+
+Ich habe schon einen großen Mast in meiner Hose.
+
+He! He! He!
+
+Soll ich etwa daran hochklettern?
+
+Der Mast lässt sich nicht öffnen.
+
+Der Mast lässt sich nicht schließen.
+
+Das bringt mir nichts.
+
+Das will ich nicht hissen.
+
+Hier geht es in die Stadt.
+
+nach rechts
+
+Tür>v
+
+Mülleimer
+
+Fenster
+
+Stadt
+
+Flaggenmast
+
+Das lässt sich nicht nehmen.
+
+Nein.
+
+Das lässt sich nur von innen öffnen.
+
+Eine stinkende Mülltonne.
+
+Die ist genau vor dem Kantinenfenster.
+
+Ich will da nicht reinklettern.
+
+Die ist doch schon offen.
+
+Die hat keinen Deckel.
+
+Die ist mir zu schwer.
+
+nach links
+
+Mülltonne
+
+_floor_number_ground_ 755
+_floor_number_ground_ 756
+Da geht es den Gang entlang.
+
+Da geht es nach oben.
+
+Da geht es runter in den Keller.
+
+Was soll ich da unten?
+
+Das ist mein Schulspind.
+
+Etwa den ganzen Spind?
+
+Soll ich mich etwa darin verstecken?
+
+Der ist doch schon zu.
+
+Dazu brauche ich Hilfe.
+
+Damit bekomme ich den Spind auch nicht auf.
+
+Das ist Tipp-Ex.
+
+Damit kann man Fehler korrigieren.
+
+Nein danke.
+
+Und mit was?
+
+Der Schraubverschluss ist verklebt.
+
+Was soll das bringen?
+
+Mein Nähkorb.
+
+Irgendwie muss selbst ich meinen Ausgleich finden.
+
+Ich brauche kein Nähzeug.
+
+Ich will jetzt nicht nähen.
+
+Ich brauche nichts aus dem Korb.
+
+Es stecken bereits Nadeln drinn.
+
+Meine muffelnden Sportklamotten.
+
+Die sollte ich dringendst mal waschen.
+
+Dieses stinkende Zeug will ich nicht mit mir herumtragen.
+
+Ich will mich nicht umziehen.
+
+Das geht nicht.
+
+Da lässt sich nichts schließen.
+
+Die liegt da gut.
+
+Meine Sportschuhe.
+
+Hmm, die riechen irgendwie nach Käse.
+
+Ich brauche keine weiteren Schuhe.
+
+Ich habe schon ein Paar Schuhe an.
+
+Das geht so nicht.
+
+Da gibt es nichts zu schließen.
+
+Die stehen da ganz gut.
+
+Ein ganz normaler Schulspind.
+
+Öffnen wäre sinnvoller.
+
+Abgeschlossen.
+
+Das ist der Schulspind von Syd.
+
+Gang
+
+1. Stock
+
+Keller
+
+Spind
+
+Klaus' Spind>o
+
+Syds Spind
+
+Tür
+
+Spindtür>c
+
+Tipp-Ex
+
+Nähkorb
+
+Sportkleidung
+
+Sportschuhe
+
+Das ist die Mädchentoilette.
+
+Das ist die Jungentoilette.
+
+Das ist die Kantine.
+
+Das ist die Hausmeisterkammer.
+
+Da drinnen versteckt sich unser Hausmeister, Pete Madison.
+
+Für ihn gibt es keine Charaktergrafiken, da man Pete NIEMALS zu Gesicht bekommt.
+
+Man kann auch nicht mit Mr. Madison sprechen.
+
+Die einzige Möglichkeit mit ihm Kontakt aufzunehmen ist, ihm einen Zettel unter der Tür durchzuschieben.
+
+Rektor Harris hat übrigens solche Anweisungszettel in seinem Büro.
+
+Der Zettel ist noch leer.
+
+Ich sollte vielleicht vorher noch eine Anweisung schreiben.
+
+Ich schiebe den Zettel einfach unter der Tür durch.
+
+Da geht es nach draußen.
+
+Ein Lüftungsschacht.
+
+Das Gitter geht nicht ab.
+
+Das Gitter ist im Weg.
+
+Der ist fest verschlossen.
+
+Das bringt mich nicht weiter.
+
+Damit bekomme ich ihn auch nicht auf.
+
+Lüftungsschacht
+
+Das ist der Mädchenumkleideraum.
+
+Schade, die ist abgeschlossen.
+
+Die ist doch schon zu.
+
+Das ist der Turnsaal.
+
+Das ist der Jungenumkleideraum.
+
+Das Schwarze Brett der Schule.
+
+Da kann man aufhängen, was man will.
+
+Aha, Bernoulli gibt also Nachhilfe.
+
+Das ist viel zu groß.
+
+Und was soll ich damit machen?
+
+Ich will das hier nicht aufhängen.
+
+Hey, wir haben bald einen Schulball.
+
+Dieses Poster brauche ich nun wirklich nicht.
+
+Wie denn?
+
+Tür>o
+
+Schwarzes Brett
+
+Plakat
+
+Hier steht ein Stuhl herum.
+
+Ich befinde mich anscheinend gerade im Stuhlgang.
+
+Ich brauche keinen Stuhl.
+
+Ich will mich jetzt nicht setzen.
+
+Ich will das nicht auf den Stuhl legen.
+
+Das ist das Lehrerzimmer.
+
+Das ist das Rektorbüro.
+
+Stuhl
+
+Da geht es raus auf den Gang.
+
+Ein stink normales Klo.
+
+Es ist fix montiert.
+
+Das Porzellan ist fest mit dem Boden verschraubt.
+
+Ich will das nicht runterspülen.
+
+Ein Spiegel.
+
+Der geht nicht ab.
+
+Soll ich mich etwa schminken?
+
+Das klappt nicht bei diesem Spiegel.
+
+Der ist an die Wand geschraubt.
+
+Ein Waschbecken.
+
+Es ist an der Wand befestigt. Ich bekomme es nicht ab.
+
+Meine Hände sind sauber.
+
+Das klappt nicht.
+
+Das bewegt sich wirklich nicht.
+
+Ich will das nicht waschen.
+
+Die Tür ist befestigt.
+
+Ich sollte sie vorher öffnen.
+
+Das würde den Türgriff beschädigen.
+
+Eine Tür öffnet man.
+
+Ein Wasserhahn.
+
+Der ist fest montiert.
+
+Das Wasser läuft doch schon.
+
+Das Wasser ist schon abgedreht.
+
+Das sitzt fest.
+
+Spiegel
+
+Waschbecken
+
+Toilette>o
+
+Wasserhahn>v
+
+Toilette>c
+
+Ein Pinkelbecken.
+
+Das ist festgemacht.
+
+Da gibt es nichts zu öffnen.
+
+Das möchte ich nicht da runter spülen.
+
+Pinkelbecken
+
+Das ist die Schulkantine.
+
+Unsere Küchenhilfe ist krank und bis sie wieder auf den Beinen ist, hilft Charlie aus.
+
+Um genau zu sein, gibt es bis jetzt noch keine Charaktergrafiken für die Küchenhilfe, also wird Charlie wohl noch lange aushelfen müssen.
+
+Die Speisetheke ist immer mit leckeren Sachen gefüllt.
+
+Die ganze Theke?
+
+Wie soll ich denn die Theke benutzen?
+
+Die lässt scih nich tvon vorne öffnen.
+
+Die ist bereits verschlossen.
+
+Und wie stellst du dir das vor?
+
+Ich will das da nicht hinlegen.
+
+Das ist das vegetarische Alternativmenü.
+
+Ich brauche kein Obst.
+
+Igitt, das ist viel zu gesund.
+
+Dann muss ich es bezahlen.
+
+Ich könnte es mit meinem Daumen eindrücken.
+
+Ich komme nicht durch die Glasscheibe.
+
+Der ist hoffentlich nicht an Vogelgrippe gestorben.
+
+Nein danke, kein Bedarf.
+
+Ich habe keinen Hunger.
+
+Das kann ich nicht.
+
+Schwein muss man haben.
+
+Den brauche ich nicht.
+
+Nein danke, ich bin auf Diät.
+
+Wenn Charlie nicht hinschaut, könnte ich mir eine Scheibe abschneiden.
+
+Der muss da stehen.
+
+Diese Pepsi-Automaten sind in Ronville ziemlich häufig zu finden.
+
+Der ist vielleicht ein bisschen zu schwer.
+
+Ohne Geld geht da nichts.
+
+Dazu braucht man einen Schlüssel.
+
+Der Automat nimmt leider nur Münzen.
+
+Ein Speisesaaltisch.
+
+Ich brauche keinen Tisch.
+
+MIt einem Tisch geht das nicht.
+
+Ich will das da nicht rauflegen.
+
+Ein Speisesaalstuhl.
+
+Theke
+
+Obstkorb
+
+Truthahn
+
+Schinken
+
+Getränkeautomat
+
+Tisch
+
+Ein Schrank.
+
+Den ganzen Schrank?
+
+Schließen wäre sinnvoller.
+
+Dann bricht nur die Tür ab.
+
+Ich will das da nicht reinlegen.
+
+Die brauche ich nun wirklich nicht.
+
+Eine Kiste mit konfiszierten Sachen.
+
+Ich will doch nicht das ganze Zeug.
+
+Ich habe nichts zu reinlegen.
+
+Die hat keine Deckel zum Öffnen.
+
+Ich möchte die Kiste nicht verschieben.
+
+Wie stellst du dir das vor?
+
+Und wie genau?
+
+Das Fenster hat keinen Griff.
+
+Es ist doch schon zu.
+
+Das funktioniert nicht.
+
+Dieser Tisch erinnert mich irgendwie an das letzte Abendmahl.
+
+Der ist mir ein bisschen zu groß.
+
+Was soll ich denn damit machen?
+
+Das klapp nicht.
+
+Da drin sind die Tests für dieses Jahr.
+
+Der ist so schwer, dass schaffe ich nicht alleine.
+
+Ein paar alte Jahrbücher.
+
+Die brauche ich nicht.
+
+Ich will jetzt nicht lesen.
+
+Da sind doch nur Seiten drin.
+
+Die sind doch schon zu.
+
+Die enthalten nur Lehrinhalte, also nicht das Richtige für mich.
+
+Eine Pinwand.
+
+Da hängt lauter langweiliges Lehrerzeugs wie der Stundenplan und so.
+
+Die ist viel zu groß.
+
+Eine Pinnwand kann man nicht schließen.
+
+Die hat unser Hausmeister da befestigt. Da bewegt sich also nichts.
+
+Ich will das da nicht aufhängen.
+
+Diese Ordner enthalten Informationen über die Schüler.
+
+Meiner ist besonders Dick.
+
+Die brauche ich doch nicht.
+
+Die will ich jetzt nicht lesen.
+
+Ich laß sie lieber stehen.
+
+Eine Schublade.
+
+Fenster>o
+
+Aktenschrank
+
+Bücher
+
+Pinnwand
+
+Ordner
+
+Schublade>o
+
+Schrank>o
+
+Schrank>c
+
+Schublade>c
+
+Kiste
+
+Die Tür nach draussen zum Lehrerparkplatz.
+
+Aktenschränke
+
+Haken
+
+Kopierer
+
+Wasserspender
+
+Schränckchen
+
+Deckenlampe
+
+Bild
+
+Lichtschalter
+
+Klausimausi!
+
+Bist du noch gar nicht zu Hausi?
+
+Kann ich dir irgendwie helfen?
+
+Waren die anderen Kinder gemein zu dir?
+
+Hören Sie sofort auf damit!
+
+Womit?
+
+So zu reden.
+
+Na gut.
+
+Ich sehe da nur unnützes Zeug.
+
+Die ist mit zu schwer mit all dem Inhalt.
+
+Schließen wäre wohl besser.
+
+Die ist voll mit Unterwäsche.
+
+Wohnt Rektor Harris etwa hier?
+
+Die ist voll mit Socken.
+
+Der Schreibtisch des Rektors.
+
+Der ist mir eindeutlig zu schwer.
+
+Ich will jetzt nicht Rektor spielen.
+
+Von hier aus sehe ich keine Schublade und die hinteren sind bestimmt abgeschlossen.
+
+Hier gibt es nichts zu Schließen.
+
+Au ja, machen wir Möbelrücken.
+
+Hnnngh!
+
+Äh! Lieber doch nicht.
+
+Da liegen ein paar von Rektor Harris' Zetteln.
+
+Ich habe schon einen.
+
+Ich sollte es vorher vielleicht mal nehmen.
+
+Das geht mit einem Stück Papier nicht.
+
+Das würde nur Unordnung auf den Tisch bringen.
+
+Soll das etwa Kunst sein?
+
+Dieses Bild will ich nun wirklich nicht.
+
+Rektor Harris hat dahinter keinen Tresor versteckt.
+
+Das Bild hängt doch schon an der Wand.
+
+Das düfte schwierig werden.
+
+Ein ziemlich großes Fenster.
+
+Soll ich es etwa aus dem Rahmen reißen?
+
+Ich könnte es putzen, aber dazu habe ich keine Lust.
+
+Ich kann den Fenstergriff nicht finden.
+
+Ein paar uninteressante Bücher über Kindererziehung.
+
+Die würden selbst Bernoulli langweilen.
+
+Ich will das nicht lesen.
+
+Nicht jetzt.
+
+Das entbehrt jeder Logik.
+
+Ein paar Schränke.
+
+Die sind mir zu schwer. Vor allem mit den vielen Akten darin.
+
+Die sind alle abgeschlossen.
+
+Die lassen sich nicht bewegen.
+
+Der ist vollkommen leer.
+
+Ich bin kein Müllmann.
+
+Und wie?
+
+Der hat keinen Deckel zum Öffnen.
+
+Ohne Deckel?
+
+Ich lasse ihn lieber stehen.
+
+Öffnen wäre wohl besser.
+
+Schreibtisch
+
+Papier
+
+Schränke
+
+Papierkorb
+
+Schrank R-%02d
+
+Einer der Schränke, in denen wir während der Sportstunden unsere Sachen einschließen können.
+
+Dieser Schrank ist verschlossen.
+
+Das will ich nicht mit mir rumschleppen.
+
+Das lasse ich besser.
+
+Der Schrank ist verschlossen.
+
+Er ist bereits zu.
+
+Ich denke nicht, dass Gewalt helfen wird.
+
+Ich frage mich, wer das hier aufgehängt hat.
+
+Dafür habe ich nun wirklich keine Verwendung.
+
+Das kann und werde ich nicht tun.
+
+Es ist zwar kein künstlerisches Meisterwerk,...
+
+aber deswegen muss ich es ja nicht gleich von der Wand reißen.
+
+Ich bin doch kein Schieber.
+
+Das würde das Kusntwerk nur beschädigen.
+
+Ein offenes Fenster.
+
+Es ist schon offen.
+
+Nein, es sollte hier noch ein wenig gelüftet werden.
+
+Ich will es nicht durch das Fenster werfen.
+
+Schrank
+
+Kunst
+
+Dahinter liegt der Sportplatz der Schule.
+
+Für die braucht man einen Spezialschlüssel.
+
+Damit kann man das Fenster nicht öffnen.
+
+Einer von vier Duschköpfen.
+
+Den kann man nicht so einfach abnehmen...
+
+und was sollte ich überhaupt damit?
+
+Das könnte den Duschkopf verstopfen.
+
+Der Hahn ist zugedreht.
+
+Der Hahn ist aufgedreht.
+
+Der ist schon auf.
+
+Der ist schon zu.
+
+Er ist geschlossen.
+
+Ein Wort - Nein.
+
+Er ist bereits geschlossen.
+
+Damit klappt es nicht.
+
+Duschkopf
+
+Hahn
+
+Abfluß
+
+_floor_number_first_ 756
+_floor_number_first_ 757
+Was soll ich da oben?
+
+Da geht es nach unten.
+
+Schönes Wetter da draußen.
+
+Das Fenster ist dermaßen im Rahmen befestigt, dass ich es nicht herausbekomme.
+
+Es klemmt.
+
+Ziehen und Zerren hilft da nichts.
+
+Das ist der Schulspind von Michael.
+
+2. Stock
+
+Erdgeschoss
+
+Michaels Spind
+
+Das ist ein Klassenzimmer.
+
+Ich habe zur Zeit keinen Unterricht.
+
+Lieber nicht.
+
+Da drin ist gerade Unterricht.
+
+Nette Idee.
+
+Das ist das Klassenzimmer 3.
+
+Das ist die Redaktion der Schülerzeitung.
+
+Das ist der Computerraum der Schule.
+
+Das ist das Chemielabor.
+
+Auf dem T-Shirt steht:
+
+\"Ich habe den Schwertmeister von Melée Island besiegt ...
+
+... und alles was ich bekommen habe, war dieses lausige T-Shirt!\"
+
+Das brauche ich nicht.
+
+Sehe ich etwa wie David Copperfield aus?
+
+Ich kann doch nicht durch Glas greifen.
+
+Ich habe bereits ein Oberteil an.
+
+Das T-Shirt lässt sich nicht öffnen.
+
+Das T-Shirt lässt sich nicht schließen.
+
+Das T-Shirt passt da ganz gut hin.
+
+Irgend so ein Filmpreis.
+
+Den habe ich mir nicht verdient.
+
+Den fasse ich nicht an. Ich habe es nur einmal versucht...
+
+Nach acht Wochen kam ich aus dem Krankenhaus zurück.
+
+Der Preis lässt sich nicht öffnen.
+
+Der Preis lässt sich nicht schließen.
+
+Der Preis passt da ganz gut hin.
+
+Damals waren wir noch die Nummer 1.
+
+Der steht da goldrichtig.
+
+Damals waren wir zumindest die Nummer 2.
+
+Damals waren wir nur die Nummer 3.
+
+Der Becher eines Zimmermanns.
+
+Für hervorragende Leistungen in der Werkstatt.
+
+Ich sehe kein Becken mit heiligem Wasser in der Nähe.
+
+Dafür ist er mir zu schade.
+
+Dazu gibt es keinen Deckel.
+
+Den hat Hoagie für besondere Standhaftigkeit beim Kampftrinken gewonnen.
+
+Das war natürlich ein Milchkampftrinken, denn Alkohol dürfen wir ja noch nicht trinken.
+
+Ich denke noch cn letztes mal, als ich versuchte ihn anzufassen.
+
+Nicht in dieser Version.
+
+Der Eierkopfpreis.
+
+Den hat Bernoulli gewonnen.
+
+Ich brauche kein Ei.
+
+Das würde es zerstören.
+
+Und worin sollte uich es einpacken?
+
+Ich finde den aktuellen Platz passend.
+
+Mit diesem Football hat unsere Mannschaft mal die Meisterschaft gewonnen.
+
+Ich habe jetzt keine Lust zu spielen.
+
+Damit er davon rollt.
+
+Ein Idol.
+
+War wohl ein Preis bei einem Schnitzwettbewerb.
+
+Daran habe ich absolut kein Interesse.
+
+Das ist mir zu schwer.
+
+Für herrausragende Leistungen beim Blasen.
+
+Im musikalischen Sinn.
+
+Tuuut.
+
+Ich brauche kein Blas-Mundstück.
+
+Das Mundstück sitzt auf dem Horn.
+
+Verschieben bringt nichts.
+
+Der Trophäenschrank unserer Schule.
+
+Hier stehen alle Preise, die wir für unsere Schule gewonnen haben.
+
+Der ist schon offen.
+
+Der Schlüssel passt nicht.
+
+Ich habe ihn aufgeschlossen.
+
+Wieso sollte ich ihn wieder abschließen?
+
+\"Im Notfall Scheibe einschlagen.
+
+Also wenn ein Feuer ausbricht, ...
+
+... jemand amokläuft, ...
+
+... bei einem Terrorangriff ...
+
+... oder wenn Bernard Bernoulli wieder einmal das Chemielabor in die Luft gesprengt hat.\"
+
+Ja klar, ein Notfall-Alarm für die Tasche fehlt mir noch.
+
+Aber die Idee hat was.
+
+Ich müsste vorher noch die Scheibe einschlagen.
+
+Dazu braucht man einen Spezialschlüssel.
+
+Der Feuerlöscher hat eine intakte Scheibe.
+
+Da sthet drücken.
+
+Ein Feuerlöscher.
+
+Jetzt fühle ich mich viel sicherer.
+
+Der ist viel zu schwer um ihn mit mir rumzutragen.
+
+Außerdem könnte ja vielleicht wirklich ein Feuer ausbrechen.
+
+Ich sehe hier nirgends ein Feuer.
+
+Damit das CO2 ausströmt?
+
+Der ist bereits verplompt.
+
+Sitzt gut an der Wand.
+
+T-Shirt
+
+Filmpreis
+
+Preis
+
+Gral
+
+Silberbecher
+
+Ei
+
+Football
+
+Idol
+
+goldenes Nebelhorn
+
+Trophäenschrank>v
+
+Feueralarm
+
+Feuerlöscher
+
+Das ist das Krankenzimmer.
+
+Das ist das Zimmer vom Schulpsychologen.
+
+Das ist Tür zum Gang.
+
+Da draußen ist ein kleiner Vorsprung.
+
+Ein Lehrerpult.
+
+Etwa das ganze Pult?
+
+Ich bin kein Lehrer.
+
+Ich wüsste nicht wie.
+
+Das Pult steht da gut.
+
+Ein Schultisch.
+
+Etwa den ganzen Tisch?
+
+Ich will mich jetzt nicht hinsetzen.
+
+Oh, schon so spät.
+
+Das ist doch keine Taschenuhr.
+
+Die Uhrzeit stimmt genau.
+
+Ich muss die Uhrzeit nicht nachstellen.
+
+Das Glas schützt die Uhr bereits.
+
+Ne, ich lass die ma hängen.
+
+Ein Rattenloch.
+
+Das ist doch kein tragbares Loch.
+
+Ich passe da nicht rein.
+
+Damit noch größere Ratten da durch passen?
+
+Dazu fählt mir das passende Werkzeug.
+
+Schüler an der Ronviller High school verschiebt Rattenloch. Klasse Schalgzeile.
+
+Das ist ein Stundenplan.
+
+Ich brauche keinen Stundenplan.
+
+Das funktioniert so nicht.
+
+Das hängt das gut.
+
+Dieses Plakat brauche ich nicht.
+
+Wie soll ich denn ein Plakat benutzen?
+
+Wenn du mir sagst wie ...
+
+Brauche ich nicht.
+
+\"Heute Razor and the Scummetts um 23 Uhr im Club Nohawk
+
+Eintritt: 4$\"
+
+Ein Werbeplakat für die Umwelt.
+
+Das haben wir April Green zu verdanken.
+
+Das ist eine Schülerarbeit.
+
+Fenster>v
+
+Lehrerpult
+
+Uhr
+
+Rattenloch
+
+Stundenplan
+
+Was soll ich damit?
+
+Schließen wäre wohl sinnvoller.
+
+Ein Computer.
+
+Dafür gibt es Laptops.
+
+Der funktioniert gerade nicht.
+
+Der Computer ist bereits verschlossen.
+
+Der steht da ganz gut.
+
+Das passt nicht in den Computer.
+
+Die ist fest mit dem Tisch verbunden.
+
+Ich sollte versuchen sie zu öffnen.
+
+Die ist bereits zu.
+
+Ein Haufen Fotos.
+
+ie brauche ich nun wirklich nicht.
+
+Als ob man das mit Fotos machen könnte.
+
+Und die Mitglieder der Schülerzeitung ärgern?
+
+Vielleicht später.
+
+Das könnte die Fotos beschädigen.
+
+Ein paar Entwürfe für Zeitungsartikel.
+
+Eine fertige Zeitung wäre mir lieber.
+
+Da steht: \"Eine Zeitung machen ist ganz einfach,\"...
+
+Das würde nur Unordnung reinbringen.
+
+Da sthet nichts mehr interessantes.
+
+Ich könnte ja meine Gedanken daruschreiben, aber damit geht es nicht.
+
+Unsere Schülerzeitung hat schon einen ganzen Haufen Auszeichnungen erhalten.
+
+Ich klaue doch keine Preise.
+
+Die habe ich nicht verdient.
+
+Die lassen sich nicht öffnen.
+
+Die lassen sich nicht schließen.
+
+Die bleiben da, wo sie sind.
+
+Computer
+
+Fotos
+
+Entwürfe
+
+Preise
+
+Die Tür des Computerraumes.
+
+Die Uhrzeit stimmt leider nicht. Unser Hausmeister sollte sie schon längstens repariert haben.
+
+Ich habe bereits eine Uhr.
+
+Zehn nach sechs.
+
+Das ist die Aufgabe von Pete.
+
+Tja, ich darf ihn Pete nennen.
+
+Die Uhr ist bereits verschlossen.
+
+Die Uhr ist gut an der Wand verschraubt.
+
+Eine Leinwand zum herunterfahren.
+
+Die ist mir zu hoch.
+
+Die Leinwand kann man nur vom Lehrer-PC aus herunterfahren.
+
+Ich kann nicht.
+
+Das könnte die Leinwand beschädigen.
+
+Das ist der Lehrer-PC.
+
+Der ist mir zu schwer.
+
+Der PC ist im Pult eingeschlossen.
+
+Das klappt damit nicht.
+
+Eine altmodische Schiefertafel.
+
+Mehrere 10 Kilos? Alleine?
+
+Dazu fehlt mir die Kreide und mit meinen Fingern möchte ich nicht darüberfahren.
+
+Die Tafel lässt sich weder öffnen noch schließen.
+
+Die Tafel ist wahnsinnig gut befestigt.
+
+Damit kann man nicht schreiben.
+
+Eine Ablagefläche für Kreide.
+
+Die ist an der Wand festgeschraubt.
+
+Ich habe keine Kreide zum Ablegen.
+
+Das kann man nicht mit der Ablage machen.
+
+Das will ich nicht auf die Ablage legen.
+
+Ein Fenster. Zumindest sieht es so aus.
+
+Fenster kann man nicht so einfach mitnehmen.
+
+Ich sehe keine Möglichkeit es zu öffnen.
+
+Das ist bereits verschlossen.
+
+Es lässt sich nicht bewegen.
+
+Damit klappt das nicht.
+
+Ein Schülercomputer.
+
+Die werden hier gebraucht.
+
+Ich wüsste nicht, was ich jetzt tun könnte.
+
+Ich komme nicht an das Gehäuse heran.
+
+Das könnte den Computer beschädigen.
+
+Leinwand
+
+Lehrercomputer
+
+Tafel
+
+Kreideablage
+
+Ein Schreibtisch.
+
+Soll das ein Scherz sein?
+
+Die Schubladen sind alle abgeschlossen.
+
+Da gibt es nichts zum Schließen.
+
+Dazu ist er mir zu schwer.
+
+Dieses Poster schildert die Funktionsweise von Teenagergehirnen.
+
+Außer dem Sexualitätszentrum ist hier nichts weiter eingezeichnet.
+
+Wie soll ich denn ein Poster benutzen?
+
+Und damit das schöne Bild zerstören?
+
+Ein Medikamentenschrank.
+
+Vollgepackt mit tollen Sache, die das Leben schöner machen.
+
+Das ganze Ding?
+
+Ich werfe mal einen kurzen Blick hinein.
+
+Aha, Medikamente.
+
+Ein menschliches Skelett.
+
+Ich bin doch nicht nekrophil.
+
+Wie soll ich denn ein Skelett benutzen?
+
+Das Skelett sieht so gut aus.
+
+Das steht da gut.
+
+Ich will es nicht dekorieren.
+
+Eine ziemlich unbequem aussehende Liege.
+
+Die kann ich nicht tragen.
+
+Ich muss nicht behandelt werden.
+
+Das klappt nicht mit der Liege.
+
+Die Rollen sind gesichert.
+
+medizinisches Poster
+
+Medikamentenschrank>o
+
+Skelett
+
+Liege
+
+Was hat Dr. Tears nur mit diesem Strick vor?
+
+Dr. Tears braucht diesen Strick wohl dringender als ich.
+
+Selbstmord ist doch keine Lösung!
+
+Ich will das nicht aufhängen.
+
+Das ist im Rahmen verankert.
+
+Schöne Aussicht.
+
+Ich kann keinen Fenstergriff finden.
+
+Das ist bruchsicheres Glas.
+
+Wegen unserem Psychologen.
+
+Eine sehr bequem aussehende Couch.
+
+Die ist viel zu schwer.
+
+Und somit den Stoff beschädigen?
+
+Die Couch hat bereits einen Stoffbezug.
+
+Die ist mit zum verrücken zu schwer.
+
+Ich will das nicht auf die Couch legen.
+
+Ein sehr bequem aussehender Ledersessel.
+
+Der passt nicht in meine Tasche.
+
+Ich will nicht den Sessel zerstören.
+
+Der steht da gut.
+
+Ich will das nicht auf den Sessel legen.
+
+\"Keep on smiling!\"
+
+Wie motivierend.
+
+Ich brauche keine gute Laune im Gepäck.
+
+Wie soll ich dass denn anstellen?
+
+Das geht mit einem Poster nicht.
+
+\"Verliehen an Doktor Marvin Tears\"
+
+Was soll ich denn mit einem Diplom von Dr. Tears?
+
+Die Glasscheibe öffnen?
+
+Das Bild ist sauber gerahmt.
+
+Das Bild hängt gerade an der Wand.
+
+\"Abschluss in Psychologie\"
+
+Ich schmücke mich nicht mit fremden Federn.
+
+Diese Pflanze schafft hier ein richtig angenehmes Raumklima.
+
+Ich bin doch kein vegetarischer Sodomist.
+
+Und was soll ich mit ihr machen? Photosynthese?
+
+Und die ganze Erde auf dem Boden verstreuen?
+
+Die Pflanze ist bereits eingetopft.
+
+Der Topf samt Erde und Pflanze ist mir zum ziehen zu schwer.
+
+Der Topf samt Erde und Pflanze ist mir zum drücken zu schwer.
+
+Ich will die Pflanze nicht dekorieren.
+
+Couch
+
+Ledersessel
+
+Poster
+
+Diplom
+
+Pflanze
+
+Schlinge
+
+Ein Klassenzimmerfenster.
+
+Es bewegt sich keinen Millimeter.
+
+Ich kann die Eingangstür und die Mülltonne sehen.
+
+Hui, da geht es aber ganz schön tief runter.
+
+Wie bitte?
+
+Ich bin nicht Selbstmordgefährdet. - Noch nicht.
+
+Warum sollte ich das da runterwerfen?
+
+Was haben diese Pflanzen hier oben verloren?
+
+Und was soll ich mit ihnen machen? Photosynthese?
+
+Ich will sie nicht ausbuddeln.
+
+Die sind bereits eingepflanzt.
+
+Das würde die Pflanzen nur beschädigen.
+
+Das ist mit dem Rahmen verbunden.
+
+Pflanzen
+
+unten
+
+Der Ausgang aus meinem Zimmer.
+
+Ich habe noch genug saubere Outfits.
+
+Das hat in meinem Schrank nichts verloren.
+
+Hinter der Schublade ist nichts versteckt.
+
+Das Holz knarrt.
+
+Hier hat man einen wunderbaren Blick auf die Straße.
+
+Ja ne, is klar.
+
+Putzen könnte ich es mal wieder...
+
+Die Luft hier drinnen ist mit Sicherheit besser als die da draußen.
+
+\"Kill 'Em All!\"
+
+Das ist mein Motto.
+
+Das Poster klemmt an der Wand.
+
+Ein Modell der Enterprise.
+
+Daran habe ich monatelang gebastelt.
+
+Das ist doch nur ein Modell.
+
+Beam me up Scotty.
+
+Das Modell ist bereits sauber verklebt.
+
+Das würde die Modell-Besatzung arg durchschütteln.
+
+Meine Schreibtischlampe.
+
+Das ist doch keine Taschenlampe.
+
+Hier ist es schon hell genug.
+
+Ich brauche die Glühbirne nicht zu wechseln.
+
+Erst wenn sie kaputt geht, kommt da eine LED-Leuchte rein.
+
+Das passt so.
+
+Mein Schreibtisch.
+
+Der steht hier schon ganz gut.
+
+Der Tisch hat Schubladen.
+
+Tischerücken? Ohne Uri Geller?
+
+Ich will das nicht auf den Schreibtisch legen.
+
+Das ist mein Bett und meine Spielwiese.
+
+Wieso sollte ich?
+
+Sehe ich etwa müde aus?
+
+Das geht mit diesem Bett nicht.
+
+Das hat nichts in meinem Bett verloren.
+
+Mein Kleiderschrank.
+
+Öffnen wäre wohl sinnvoller.
+
+Wie wäre es mit öffnen.
+
+Hmm, mal sehen, was sich unter meinem Bett so befindet.
+
+Aha!
+
+Da ist absolut nichts.
+
+Wie soll ich das denn machen?
+
+Soll ich mich etwa unter meinem Bett verstecken?
+
+Das Bett ist davon ganz begeistert.
+
+Ne, wirklich.
+
+Ich will das da nicht verstecken.
+
+Enterprise
+
+Tischlampe
+
+Bett
+
+unterm Bett
+
+Hallo!
+
+Willkommen in unserer Highschool!
+
+Dieses Starterpack enthält die bereits bekannten Räume aus Episode 53, die Redaktion der Schülerzeitung sowie die Herrenumkleide samt Dusche.
+
+Die Räume für den Keller, den 2. Stock, das Dach und die restlichen Räume müssen erst noch gezeichnet werden!
+
