@@ -1,3 +1,31 @@
+enum eDoorState
+{
+	eDoorClosed		= 0, 
+	eDoorOpen			= 1, 
+	eDoorLocked		= 2, 
+};
+	
+enum eDoorNum
+{
+	eDoorNumSchuleingang, 
+	eDoorNumKlaus, 
+	eDoorNumMaedchentoilette, 
+	eDoorNumJungentoilette, 
+	eDoorNumKantine, 
+	eDoorNumLehrerzimmer, 
+	eDoorNumRektorzimmer, 
+	eDoorNumKlassenzimmer3, 
+	eDoorNumSchuelerzeitung, 
+	eDoorNumKrankenzimmer, 
+	eDoorNumPsychologe, 
+	eDoorNumFenster3, 
+	eDoorComputerraum, 
+	eDoorNumKopierzimmer, 
+	eDoorNumJungenumkleide, 
+	eDoorNumJungendusche, 
+	
+};
+
 struct DoorType
 {
 	String			s_LookAt;
