@@ -23,7 +23,7 @@
       <GUIAlphaStyle>Classic</GUIAlphaStyle>
       <WalkInLookMode>False</WalkInLookMode>
       <AntiGlideMode>False</AntiGlideMode>
-      <DebugMode>True</DebugMode>
+      <DebugMode>False</DebugMode>
       <InventoryCursors>True</InventoryCursors>
       <HandleInvClicksInScript>True</HandleInvClicksInScript>
       <DisplayMultipleInventory>False</DisplayMultipleInventory>
@@ -3904,6 +3904,7 @@ return
                     <Sprites>
                       <Sprite Slot="363" Width="22" Height="76" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
                       <Sprite Slot="364" Width="26" Height="75" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
+                      <Sprite Slot="768" Width="22" Height="76" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
                     </Sprites>
                   </SpriteFolder>
                 </SubFolders>
@@ -7207,7 +7208,7 @@ return
                   </ViewFrame>
                   <ViewFrame>
                     <ID>1</ID>
-                    <Image>363</Image>
+                    <Image>768</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
