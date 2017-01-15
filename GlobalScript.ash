@@ -60,9 +60,9 @@ import eAction Action();
 
 //! veraltet (obsolet)
 import function MovePlayer(int x, int y);
-//! veraltet (obsolet) - wird durch ein Player-Extend ersetzt (Character.GoToCharacter(Character *charac, eDirection dir, bool FacePlayer, eBlockingMMM blocking);)
+//! veraltet (obsolet) - wird durch ein Player-Extend ersetzt (Character.GoToCharacter(Character *charac, CharacterDirection dir, bool FacePlayer, eBlockingMMM blocking);)
 import function GoToCharacter(Character *charid, int direction, int NPCfacesplayer, int blocking);
-//! veraltet (obsolet) - wird durch ein Player-Extend ersetzt (Character.GoToCharacter(Character *charac, eDirection dir, bool FacePlayer, eBlockingMMM blocking);)
+//! veraltet (obsolet) - wird durch ein Player-Extend ersetzt (Character.GoToCharacter(Character *charac, CharacterDirection dir, bool FacePlayer, eBlockingMMM blocking);)
 import function NPCGoToCharacter(Character *charidwhogoes, Character *charidtogoto, int direction, int NPCfacesplayer, int blocking);
 
 // -- interaction function ---
@@ -89,20 +89,20 @@ import function AlarmSound ();
 // --- interaction functions ---
 
 //! Extender Funktion - setzt die gewählte Spielfigur auf die aktuelle Position, ohne diese dahin laufen zu lassen.
-import function PlaceCharacter (this Character*, int x, int y, eDirection dir);
+import function PlaceCharacter (this Character*, int x, int y, CharacterDirection dir);
 
 //! veraltet (obsolet)
-import function PlacePC (int x, int y, eDirection dir);
+import function PlacePC (int x, int y, CharacterDirection dir);
 //! muss für jedes Tür-Objekt in before fade-in aufgerufen werden um den aktuellen Zustand der Tür anzuzeigen und das Objekt nicht klickbar zu machen
 import function init_object (this Object*,  int GI);
 import function init_object2(this Object*,  int var);
 
 //! lässt den aktuellen Spieler an die Position x,y laufen und richtet ihn danach mit Richtung dir aus
-import function any_click_move (int x, int y, eDirection dir);
+import function any_click_move (int x, int y, CharacterDirection dir);
 //! lässt den Spieler nur an die Position laufen, wenn die aktuelle Aktion 'eActWalk' ist
-import function any_click_walk (int x, int y, eDirection dir);
+import function any_click_walk (int x, int y, CharacterDirection dir);
 //! lässt den Spieler nur an die Position laufen, wenn die aktuelle Aktion 'eActLookat' ist
-import function any_click_walk_look (int x, int y, eDirection dir, String lookat);
+import function any_click_walk_look (int x, int y, CharacterDirection dir, String lookat);
 
 #ifdef USE_OLD_DOORSYNTAX
 //! normale Türenfunktion
@@ -116,21 +116,21 @@ import function any_click_walk_look (int x, int y, eDirection dir, String lookat
 		\param nr_x horizontale Position auf dem Bildschirm im neuen Raum
 		\param nr_y vertiakle Position auf dem Bildschirm im neuen Raum
 		\param nr_dir die Richtung in die der Spieler im neuen Raum schaut */
-import function any_click_on_door (int GI, Object *objekt, int x, int y, eDirection dir, int nr_room, int nr_x, int nr_y, eDirection nr_dir);
+import function any_click_on_door (int GI, Object *objekt, int x, int y, CharacterDirection dir, int nr_room, int nr_x, int nr_y, CharacterDirection nr_dir);
 //! setzt die Türenrückmeldungen für das Anschauen, für eine gesperrte Tür und für ein falsches Item zum Aufsperren
 import function SetDoorStrings (String lookat, String islocked, String wrongitem);
 
 //! erweiterte Türen-Aktion
-import function any_click_on_door_special (int GI, Object *objekt, int x, int y, eDirection dir, int nr_room, int nr_x, int nr_y, eDirection nr_dir, int opensound, int closesound, int key, int closevalue);
+import function any_click_on_door_special (int GI, Object *objekt, int x, int y, CharacterDirection dir, int nr_room, int nr_x, int nr_y, CharacterDirection nr_dir, int opensound, int closesound, int key, int closevalue);
 #endif
 
-import function any_click_on_light_switch (int hotspot, int x, int y, eDirection dir);
-import function any_click_use_inv (int item, int x, int y, eDirection dir);
+import function any_click_on_light_switch (int hotspot, int x, int y, CharacterDirection dir);
+import function any_click_use_inv (int item, int x, int y, CharacterDirection dir);
 //! lässt den Spieler an die angegebene Position laufen, den Gegenstand anschauen und bei gewählter eActPickup-Aktion danach ins Inventar aufnehmen
-import function any_click_walk_look_pick (int x, int y, eDirection dir, string lookat, Object *object, InventoryItem *item, int GI, int sound);
+import function any_click_walk_look_pick (int x, int y, CharacterDirection dir, string lookat, Object *object, InventoryItem *item, int GI, int sound);
 
 //! veraltet (obsolet)
-import function SetWalkTo (int x, int y, eDirection dir);
+import function SetWalkTo (int x, int y, CharacterDirection dir);
 //! veraltet (obsolet)
 import function MovedTo ();
 //! veraltet (obsolet)
