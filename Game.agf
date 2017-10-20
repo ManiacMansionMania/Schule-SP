@@ -3921,13 +3921,6 @@ stop
                       <Sprite Slot="342" Width="26" Height="75" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
                     </Sprites>
                   </SpriteFolder>
-                  <SpriteFolder Name="Special">
-                    <SubFolders />
-                    <Sprites>
-                      <Sprite Slot="1087" Width="22" Height="77" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
-                      <Sprite Slot="1088" Width="26" Height="75" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
-                    </Sprites>
-                  </SpriteFolder>
                 </SubFolders>
                 <Sprites>
                   <Sprite Slot="321" Width="22" Height="77" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
@@ -4052,7 +4045,6 @@ stop
                   <SpriteFolder Name="Talk">
                     <SubFolders />
                     <Sprites>
-                      <Sprite Slot="363" Width="22" Height="76" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
                       <Sprite Slot="364" Width="26" Height="75" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
                       <Sprite Slot="768" Width="22" Height="76" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
                     </Sprites>
@@ -4078,7 +4070,6 @@ stop
                   <Sprite Slot="360" Width="22" Height="76" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
                   <Sprite Slot="361" Width="22" Height="76" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
                   <Sprite Slot="362" Width="22" Height="76" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
-                  <Sprite Slot="1202" Width="22" Height="76" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
                 </Sprites>
               </SpriteFolder>
               <SpriteFolder Name="Razor">
@@ -4654,19 +4645,19 @@ stop
                   <SpriteFolder Name="Talk">
                     <SubFolders />
                     <Sprites>
-                      <Sprite Slot="1223" Width="28" Height="75" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
+                      <Sprite Slot="1223" Width="25" Height="75" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
                       <Sprite Slot="1224" Width="26" Height="75" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
                     </Sprites>
                   </SpriteFolder>
                 </SubFolders>
                 <Sprites>
-                  <Sprite Slot="1208" Width="28" Height="75" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
+                  <Sprite Slot="1208" Width="25" Height="75" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
                   <Sprite Slot="1209" Width="25" Height="75" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
                   <Sprite Slot="1210" Width="25" Height="75" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
                   <Sprite Slot="1211" Width="25" Height="75" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
                   <Sprite Slot="1212" Width="25" Height="75" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
                   <Sprite Slot="1213" Width="26" Height="75" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
-                  <Sprite Slot="1214" Width="25" Height="75" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
+                  <Sprite Slot="1214" Width="26" Height="75" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
                   <Sprite Slot="1215" Width="26" Height="75" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
                   <Sprite Slot="1216" Width="26" Height="75" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
                   <Sprite Slot="1217" Width="26" Height="75" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
@@ -6092,7 +6083,7 @@ stop
                   <ViewFrame>
                     <ID>1</ID>
                     <Image>337</Image>
-                    <Flipped>True</Flipped>
+                    <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>100</Sound>
                   </ViewFrame>
@@ -7007,7 +6998,7 @@ stop
                   <ViewFrame>
                     <ID>1</ID>
                     <Image>256</Image>
-                    <Flipped>True</Flipped>
+                    <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>100</Sound>
                   </ViewFrame>
@@ -7765,7 +7756,7 @@ stop
                     <ID>4</ID>
                     <Image>335</Image>
                     <Flipped>False</Flipped>
-                    <Delay>97</Delay>
+                    <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                 </Frames>
@@ -15897,8 +15888,8 @@ stop
             <SubFolders />
             <AudioClips>
               <AudioClip>
-                <ScriptName>aMusic1</ScriptName>
                 <SourceFileName>music\music1.mid</SourceFileName>
+                <ScriptName>aMusic1</ScriptName>
                 <Index>1</Index>
                 <Type>2</Type>
                 <BundlingType>InSeparateVOX</BundlingType>
@@ -17154,8 +17145,8 @@ stop
     </AudioClips>
     <AudioClipTypes>
       <AudioClipType>
-        <Name xml:space="preserve">Ambient Sound</Name>
         <TypeID>1</TypeID>
+        <Name xml:space="preserve">Ambient Sound</Name>
         <MaxChannels>1</MaxChannels>
         <VolumeReductionWhileSpeechPlaying>0</VolumeReductionWhileSpeechPlaying>
         <CrossfadeClips>No</CrossfadeClips>
